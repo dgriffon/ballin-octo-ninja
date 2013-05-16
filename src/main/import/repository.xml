@@ -7,14 +7,14 @@
                  j:moduleType="module"
                  j:title="my-module"
                  jcr:primaryType="jnt:module">
-                
-                <templates j:rootTemplatePath="/base" jcr:primaryType="jnt:templatesFolder">
+                <portlets jcr:primaryType="jnt:portletFolder"/>
                     <files jcr:primaryType="jnt:folder"/>
                     <contents jcr:primaryType="jnt:contentFolder"/>
-                </templates>
-                <portlets jcr:primaryType="jnt:portletFolder"/>
+                <templates j:rootTemplatePath="/base" jcr:primaryType="jnt:templatesFolder">
                 <files jcr:primaryType="jnt:folder"/>
                 <contents jcr:primaryType="jnt:contentFolder"/>
+                </templates>
+                
                 
             </my-module>
     </modules>
